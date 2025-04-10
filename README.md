@@ -4,4 +4,4 @@
 - Используйте Apache Tomcat версии 9
 - Приложение будет доступного по адресу http://localhost:8080/
 
-![Схема игры](./src/main/java/com/javarush/kuznetsova/quest/схема.jpg)
+![Схема игры](схема.jpg)
