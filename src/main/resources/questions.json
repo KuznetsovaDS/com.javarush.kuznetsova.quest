@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "text": "Вы находитесь на развилке в темном лесу, куда пойдете?",
+    "answers": [
+      {"id": 11, "text": "Направо", "nextQuestionId": 2},
+      {"id": 12, "text": "Налево", "nextQuestionId": 3},
+      {"id": 13, "text": "Я не сдвинусь с места!", "nextQuestionId": 4}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Вы встретили грибника. Хотите спросить у него дорогу?",
+    "answers": [
+      {"id": 21, "text": "Да", "nextQuestionId": 5},
+      {"id": 22, "text": "Ну нет...", "nextQuestionId": 6}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Вы нашли заброшенный дом. Остаться на ночь?",
+    "answers": [
+      {"id": 31, "text": "Да", "nextQuestionId": 7},
+      {"id": 32, "text": "Нет", "nextQuestionId": 8}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Вас нашла стая волков...",
+    "isWinning": false,
+    "answers": []
+  },
+  {
+    "id": 5,
+    "text": "Вам помогли найти тропинку. Вы вышли из леса.",
+    "isWinning": true,
+    "answers": []
+  },
+  {
+    "id": 6,
+    "text": "Вы свернули не туда... и попали в капкан.",
+    "isWinning": false,
+    "answers": []
+  },
+  {
+    "id": 7,
+    "text": "К вам пришли незваные гости...",
+    "isWinning": false,
+    "answers": []
+  },
+  {
+    "id": 8,
+    "text": "За домом проходила тропинка, по которой вы быстро выбрались.",
+    "isWinning": true,
+    "answers": []
+  }
+]
